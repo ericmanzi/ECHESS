@@ -1,0 +1,28 @@
+oaChess 1.0 by Eric Manzi
+echess format
+Analysis of onegame.pgn
+2014-08-27 13:50:33
+
+
+
+
+[Event "1419"]
+[Site "?"]
+[Date "2014.??.??"]
+[Round "?"]
+[White "Almasi, Zoltan"]
+[Black "Vallejo, Pons Francisco"]
+[Result "0-1"]
+[WhiteElo "2693"]
+[BlackElo "2700"]
+[ECO "A21"]
+[EventDate "2014.??.??"]
+[Plycount "16"]
+[EngineID "Houdini 1.5a x64"]
+
+--------------------------------------------------
+
+Move chosen by player <score> {depth}: 1.c2c4<>{}  2.f7f5<-23>{16}  3.g2g3<16>{17}  4.g8f6<-25>{18}  5.f1g2<16>{18}  
+Engine's best move    <score> {depth}: 1. -- <>{}  2.e7e5<0>{17}  3.g1f3<27>{16}  4.e7e5<-21>{16}  5.g1f3<27>{17}  
+--------------------------------------------------
+

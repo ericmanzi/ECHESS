@@ -1,0 +1,334 @@
+Analysis of onegame.pgn
+2014-08-27 12:14:05
+
+
+[Event "1419"]
+[Site "?"]
+[Date "2014.??.??"]
+[Round "?"]
+[White "Almasi, Zoltan"]
+[Black "Vallejo, Pons Francisco"]
+[Result "0-1"]
+[WhiteElo "2693"]
+[BlackElo "2700"]
+[ECO "A21"]
+[EventDate "2014.??.??"]
+
+
+engine:
+Gull 3 x64
+
+
+Open_Analysis: 
+uci
+
+engine:
+id name Gull 3 x64
+id author ThinkingALot
+option name Hash type spin min 1 max 65536 default 16
+option name Ponder type check default false
+option name MultiPV type spin min 1 max 64 default 1
+option name Clear Hash type button
+option name PV Hash type check default true
+option name Aspiration window type check default true
+option name Threads type spin min 1 max 4 default 4
+option name Large memory pages type check default true
+uciok
+
+
+Open_Analysis: 
+setoption name Hash value 32
+
+Open_Analysis: 
+setoption name MultiPV value 1
+
+engine:
+
+
+Open_Analysis: 
+ucinewgame
+
+engine:
+
+
+Open_Analysis: 
+setoption name Clear Hash
+
+Open_Analysis: 
+position startpos moves c2c4
+
+engine:
+
+
+Open_Analysis: 
+go movetime 1000
+
+engine:
+info depth 1
+info depth 2
+info depth 3
+info depth 4
+info depth 5
+info depth 6
+info depth 7
+info depth 7 seldepth 17 score cp -10 nodes 9818 nps 213434 pv b8c6 g1f3 g8f6 b1c3 e7e6 e2e3 f8b4 d2d4 d7d5
+info depth 8
+info depth 8 seldepth 21 score cp -18 upperbound nodes 14396 nps 312956 pv b8c6 g1f3 g8f6 b1c3 e7e6 d2d4 f8b4 a2a3
+info depth 8
+info depth 8 seldepth 18 score cp -12 nodes 29480 nps 475483 pv b8c6 g1f3 g8f6 b1c3 d7d5 c4d5 f6d5 e2e3 c8g4
+info depth 9
+info depth 9 seldepth 20 score cp -20 upperbound nodes 41236 nps 665096 pv b8c6 d2d4 g8f6 b1c3 d7d5 c4d5 f6d5 e2e4
+info depth 9 seldepth 23 score cp -9 nodes 51990 nps 666538 pv e7e5 e2e3 b8c6 b1c3 g8f6 a2a3 d7d5 c4d5 f6d5
+info depth 10
+info depth 10 seldepth 24 score cp -17 upperbound nodes 76644 nps 824129 pv e7e5 e2e3 b8c6 b1c3 g8f6 g1f3 e5e4 f3g5
+info depth 10
+info depth 10 seldepth 20 score cp -25 upperbound nodes 106939 nps 981091 pv e7e5 e2e3 b8c6 b1c3 g8f6 g1f3 e5e4 f3g5
+info depth 10 seldepth 23 score cp -16 nodes 157868 nps 1273129 pv e7e6 g1f3 c7c5 b1c3 b8c6 e2e3 g8f6 f1d3 d7d5 c4d5 e6d5 d1a4
+info depth 11
+info depth 11 seldepth 25 score cp -24 upperbound nodes 177300 nps 1429838 pv e7e6 g1f3 c7c5 b1c3 b8c6 e2e3 g8f6 f1e2 f8d6 e1g1
+info depth 11 seldepth 27 score cp -9 nodes 258037 nps 1843121 pv e7e5 b1c3 b8c6 e2e3 g8f6 g1f3 f8d6 a2a3 e8g8 f1d3 f8e8 c3e4 d6f8 e4g5 d7d5
+info depth 12
+info depth 12 seldepth 29 score cp -1 lowerbound nodes 459838 nps 2459026 pv e7e5 b1c3 b8c6 e2e3 g8f6 g1f3 f8e7 f1d3 e8g8 f3g5 h7h6
+info depth 13
+info depth 13 seldepth 30 score cp -1 nodes 731331 nps 2937072 pv e7e5 b1c3 b8c6 g1f3 g8f6 e2e4 f8c5 f3e5 c6e5 d2d4 c5b4 d4e5 f6e4 d1d4 d8h4 f1d3 b4c3 b2c3
+info depth 14
+info depth 14 seldepth 30 score cp -9 upperbound nodes 1078521 nps 3456798 pv e7e5 b1c3 b8c6 g1f3 g8f6 e2e4 f8c5 f3e5 c6e5 d2d4 c5b4 d4e5 f6e4 d1d4 d8h4 f1d3 b4c3 b2c3
+info depth 14
+info depth 14 seldepth 31 score cp -11 nodes 1772152 nps 3920690 pv e7e5 b1c3 b8c6 g1f3 g8f6 e2e4 f8b4 a2a3 b4c3 d2c3 f6e4 f1d3 e4f6 e1g1 e8g8 f1e1 d7d6 h2h3 h7h6 b2b4
+info depth 15
+info depth 15 seldepth 33 score cp -3 lowerbound nodes 2724546 nps 4263765 pv e7e5 b1c3 b8c6 g1f3 g8f6 e2e4 f8b4 a2a3 b4c3 d2c3 f6e4 f1d3 e4c5 c1g5 c5d3 d1d3 f7f6 g5h4 e8g8 e1g1 f8e8
+info depth 16
+info depth 16 seldepth 35 score cp -8 nodes 4049981 nps 4555659 pv e7e5 b1c3 b8c6 g1f3 g8f6 e2e4 f8b4 f1e2 b4c3 d2c3 f6e4 e1g1 e8g8 f1e1 d7d6 e2d3 e4f6 b2b4 f8e8 d1c2 a7a5 b4b5
+info nodes 4693451 score cp -8
+bestmove e7e5 ponder b1c3
+
+
+Open_Analysis: 
+go movetime 1000 searchmoves f7f5
+
+engine:
+info depth 2
+info depth 6 seldepth 26 score cp -11 nodes 0 nps 0 pv f7f5 b1c3
+info nodes 0 score cp -8
+bestmove f7f5 ponder b1c3
+
+
+Open_Analysis: 
+setoption name Clear Hash
+
+Open_Analysis: 
+position startpos moves c2c4 f7f5
+
+engine:
+
+
+Open_Analysis: 
+go movetime 1000
+
+engine:
+info depth 1
+info depth 2
+info depth 3
+info depth 4
+info depth 5
+info depth 6
+info depth 7
+info depth 7 seldepth 21 score cp 43 nodes 24153 nps 1610200 pv d2d4 c7c5 d4d5 b8a6 g1f3 g8f6 b1c3 f6e4
+info depth 7 seldepth 12 score cp 46 nodes 25422 nps 1694800 pv g1f3 e7e6 d2d4 c7c5 d4d5 f8d6 d5e6 d7e6 b1c3
+info depth 8
+info depth 8 seldepth 17 score cp 46 nodes 31332 nps 1010709 pv g1f3 e7e6 d2d4 c7c5 d4d5 f8d6 d5e6 d7e6 b1c3
+info depth 9
+info depth 9 seldepth 17 score cp 46 nodes 37660 nps 1214838 pv g1f3 e7e6 d2d4 c7c5 d4d5 f8d6 d5e6 d7e6 b1c3
+info depth 9 seldepth 20 score cp 47 nodes 70352 nps 2269419 pv b1c3 c7c5 d2d3 b8c6 g1f3 g8f6 c1g5 e7e6 a2a3
+info depth 10
+info depth 10 seldepth 23 score cp 39 upperbound nodes 83966 nps 2708580 pv b1c3 c7c5 d2d3 b8c6 g1f3 g8f6 c1g5 h7h6 g5e3 e7e6
+info depth 10
+info depth 10 seldepth 25 score cp 38 nodes 159034 nps 3457260 pv b1c3 c7c5 d2d3 g8f6 g1f3 b8c6 g2g3 h7h6 f1g2 e7e5 e1g1 d7d6 e2e4 c8e6
+info depth 11
+info depth 11 seldepth 24 score cp 38 nodes 225400 nps 3635483 pv b1c3 c7c5 d2d3 g8f6 g1f3 b8c6 g2g3 h7h6 f1g2 e7e5 e1g1 d7d6 e2e4 c8e6
+info depth 11 seldepth 27 score cp 40 nodes 444308 nps 4076220 pv e2e3 e7e6 d2d4 c7c5 d4d5 f8d6 g1f3 g8f6 b1c3 f6e4 f1d3 e4c3
+info depth 12
+info depth 12 seldepth 26 score cp 48 lowerbound nodes 587059 nps 4193278 pv e2e3 e7e6 d2d4 c7c5 b1c3 b8c6 g1f3 f8d6 f1d3 c5d4 e3d4
+info depth 13
+info depth 13 seldepth 34 score cp 50 nodes 1077039 nps 4940545 pv e2e3 e7e5 b1c3 b8c6 d2d4 g8f6 d4e5 c6e5 g1f3 e5f3 g2f3 f8e7 e3e4 e8g8 e4e5 f6h5 h1g1
+info depth 13 seldepth 27 score cp 56 lowerbound nodes 1425368 nps 5090600 pv d2d4 c7c5 e2e3 b8c6 g1f3 g8f6 b1c3 d7d6 f1e2 c5d4 e3d4 c8d7 e1g1
+info depth 14
+info depth 14 seldepth 35 score cp 50 nodes 2360540 nps 5414082 pv d2d4 g8f6 e2e3 g7g5 f1d3 e7e6 g1e2 c7c5 e1g1 h8g8 b1c3 b8c6 a2a3 a7a6 c1d2
+info depth 15
+info depth 15 seldepth 32 score cp 58 lowerbound nodes 4004645 nps 5463362 pv d2d4 g8f6 e2e3 g7g5 f1d3 e7e6 b1c3 h8g8 g1e2 c7c5 e1g1 b8c6 a2a3 a7a6 c1d2
+info depth 16
+info nodes 5670073 score cp 58
+bestmove d2d4 ponder g8f6
+
+
+Open_Analysis: 
+go movetime 1000 searchmoves g2g3
+
+engine:
+info depth 2
+info depth 6 seldepth 34 score cp 50 nodes 0 nps 0 pv g2g3 g8f6
+info nodes 0 score cp 58
+bestmove g2g3 ponder g8f6
+
+
+Open_Analysis: 
+setoption name Clear Hash
+
+Open_Analysis: 
+position startpos moves c2c4 f7f5 g2g3
+
+engine:
+
+
+Open_Analysis: 
+go movetime 1000
+
+engine:
+info depth 1
+info depth 2
+info depth 3
+info depth 4
+info depth 5
+info depth 6
+info depth 7
+info depth 7 seldepth 17 score cp -41 upperbound nodes 23062 nps 1537466 pv c7c5 g1f3 b8c6 b1c3 e7e6 d2d3 g8f6 c1g5
+info depth 7
+info depth 7 seldepth 16 score cp -48 nodes 36298 nps 2419866 pv c7c5 g1f3 b8c6 b1c3 g8f6 d2d3 d7d6 c1g5 e7e5 c3d5 d8a5
+info depth 7 seldepth 18 score cp -38 nodes 39714 nps 2647600 pv b8c6 d2d4 e7e5 g1f3 f8b4 c1d2 b4d2 d1d2 e5e4 f3h4
+info depth 8
+info depth 8 seldepth 24 score cp -38 nodes 52270 nps 3484666 pv b8c6 g1f3 e7e5 d2d4 e5d4 f3d4 d8f6 d4b5 f6e5 c1g5 f8b4
+info depth 9
+info depth 9 seldepth 18 score cp -30 lowerbound nodes 60292 nps 4019466 pv b8c6 g1f3 e7e5 d2d4 e5d4 f3d4 c6d4 d1d4 d8f6 d4e3 f6e6
+info depth 10
+info depth 10 seldepth 24 score cp -22 lowerbound nodes 108855 nps 3511451 pv b8c6 g1f3 e7e5 d2d4 e5e4 f3e5 c6e5 d4e5 d7d6 d1a4 c8d7
+info depth 11
+info depth 11 seldepth 28 score cp -46 upperbound nodes 314945 nps 4037756 pv b8c6 d2d4 e7e5 d4d5 c6a5 e2e3 g8f6 c1d2
+info depth 11 seldepth 22 score cp -37 nodes 368875 nps 3966397 pv c7c5 g1f3 b8c6 b1c3 g8f6 d2d3 e7e6 f1g2 h7h6 e1g1 g7g5 e2e4
+info depth 11 seldepth 24 score cp -26 nodes 486971 nps 4467623 pv e7e5 g1f3 b8c6 b1c3 e5e4 f3h4 d7d6 f1h3 g7g6 d2d3 f8e7 c3d5 g8f6 d3e4 f5e4 h3c8 a8c8
+info depth 12
+info depth 12 seldepth 28 score cp -26 nodes 672106 nps 4308371 pv e7e5 g1f3 b8c6 b1c3 e5e4 f3h4 d7d6 f1h3 g7g6 d2d3 f8e7 c3d5 g8f6 d3e4 f5e4 h3c8 a8c8
+info depth 13
+info depth 13 seldepth 27 score cp -26 nodes 914449 nps 4526975 pv e7e5 g1f3 b8c6 b1c3 e5e4 f3h4 d7d6 f1h3 g7g6 d2d3 f8e7 c3d5 g8f6 d3e4 f5e4 h3c8 a8c8
+info depth 14
+info depth 14 seldepth 36 score cp -34 upperbound nodes 1349968 nps 4821314 pv e7e5 g1f3 b8c6 b1c3 e5e4 f3h4 d7d6 f1h3 g7g6 d2d3 f8e7 d3e4 e7h4 g3h4 d8h4 h3g2 c8e6 e4f5 e6c4 e1g1 g6f5
+info depth 14
+info depth 14 seldepth 39 score cp -37 nodes 2667491 nps 5189671 pv e7e5 g1f3 b8c6 b1c3 e5e4 f3h4 d7d6 d2d4 g7g5 h4g2 f8g7 h2h4 h7h6 c1e3 c8d7 f2f3 e4f3 e2f3 d7e6 h4g5 h6g5 h1h8 g7h8
+info depth 15
+info depth 15 seldepth 29 score cp -37 nodes 3763694 nps 5249224 pv e7e5 g1f3 b8c6 b1c3 e5e4 f3h4 d7d6 d2d4 g7g5 h4g2 f8g7 h2h4 h7h6 c1e3 c8d7 f2f3 e4f3 e2f3 d7e6 h4g5 h6g5 h1h8 g7h8
+info depth 15 seldepth 28 score cp -29 lowerbound nodes 4262076 nps 5361101 pv c7c5 g1f3 b8c6 b1c3 g8f6 f1g2 e7e5 d2d3 f8e7 c3d5 e8g8 d5e7 d8e7 e1g1 d7d6
+info depth 16
+info nodes 5467645 score cp -29
+bestmove c7c5 ponder g1f3
+
+
+Open_Analysis: 
+go movetime 1000 searchmoves g8f6
+
+engine:
+info depth 2
+info depth 6 seldepth 35 score cp -37 nodes 0 nps 0 pv g8f6 b1c3 e7e6 d2d4 f8b4 g1f3 e8g8 a2a3 b4c3 b2c3 f6e4 d1c2
+info nodes 0 score cp -29
+bestmove g8f6 ponder b1c3
+
+
+Open_Analysis: 
+setoption name Clear Hash
+
+Open_Analysis: 
+position startpos moves c2c4 f7f5 g2g3 g8f6
+
+engine:
+
+
+Open_Analysis: 
+go movetime 1000
+
+engine:
+info depth 1
+info depth 2
+info depth 3
+info depth 4
+info depth 5
+info depth 6
+info depth 7
+info depth 7 seldepth 18 score cp 34 nodes 14527 nps 968466 pv g1f3 c7c5 b1c3 b8c6 d2d4 c5d4 f3d4 c6d4
+info depth 8
+info depth 8 seldepth 16 score cp 26 upperbound nodes 18681 nps 1245400 pv g1f3 c7c5 b1c3 b8c6 d2d4 c5d4 f3d4 c6d4
+info depth 8
+info depth 8 seldepth 21 score cp 25 nodes 40576 nps 1308903 pv g1f3 c7c5 b1c3 b8c6 d2d4 c5d4 f3d4 d8a5 c1e3 f6g4 e3g5 a5b4 d4f5 b4b2
+info depth 9
+info depth 9 seldepth 19 score cp 25 nodes 47587 nps 1535064 pv g1f3 c7c5 b1c3 b8c6 d2d4 c5d4 f3d4 d8a5 c1e3 f6g4 e3g5 a5b4 d4f5 b4b2
+info depth 10
+info depth 10 seldepth 21 score cp 25 nodes 78955 nps 2546935 pv g1f3 c7c5 b1c3 b8c6 d2d4 c5d4 f3d4 e7e6 c1f4 d7d5 c4d5 f6d5 d4c6 b7c6 c3d5 c6d5
+info depth 11
+info depth 11 seldepth 22 score cp 33 lowerbound nodes 173223 nps 2793919 pv g1f3 c7c5 b1c3 b8c6 f1g2 e7e5 d2d3 d7d5 c4d5 f6d5 e1g1 c8e6
+info depth 12
+info depth 12 seldepth 27 score cp 29 nodes 253802 nps 3253871 pv g1f3 c7c5 b1c3 b8c6 f1g2 e7e5 d2d3 f8e7 e1g1 e8g8 e2e4 d7d6 c1g5
+info depth 13
+info depth 13 seldepth 25 score cp 29 nodes 501228 nps 4042161 pv g1f3 c7c5 b1c3 b8c6 f1g2 e7e5 d2d3 f8e7 e1g1 e8g8 e2e4 d7d6 c1g5
+info depth 14
+info depth 14 seldepth 30 score cp 26 nodes 1181047 nps 4743160 pv g1f3 c7c5 b1c3 d7d6 d2d3 h7h6 f3h4 e8f7 f2f4 b8c6 f1g2 e7e6 e1g1 f8e7 c1d2 d6d5
+info depth 15
+info depth 15 seldepth 33 score cp 32 nodes 3584096 nps 5224629 pv g1f3 c7c5 e2e3 h8g8 b1c3 g7g5 h2h3 b8c6 d2d4 d7d6 d4d5 c6e5 f1e2 e8f7 f3e5 d6e5 e2h5 f7g7
+info depth 16
+info nodes 5328326 score cp 32
+bestmove g1f3 ponder c7c5
+
+
+Open_Analysis: 
+go movetime 1000 searchmoves f1g2
+
+engine:
+info depth 2
+info depth 6 seldepth 41 score cp 32 nodes 0 nps 0 pv f1g2 e7e5
+info nodes 0 score cp 32
+bestmove f1g2 ponder e7e5
+
+
+Open_Analysis: 
+setoption name Clear Hash
+
+Open_Analysis: 
+position startpos moves c2c4 f7f5 g2g3 g8f6 f1g2
+
+engine:
+
+
+Open_Analysis: 
+go movetime 1000
+
+engine:
+info depth 1
+info depth 2
+info depth 3
+info depth 4
+info depth 5
+info depth 6
+info depth 7
+info depth 7 seldepth 16 score cp -26 upperbound nodes 13919 nps 869937 pv e7e6 d2d4 c7c5 d4d5 d8a5 e1f1
+info depth 7 seldepth 17 score cp -23 nodes 21505 nps 1344062 pv e7e5 d2d4 e5d4 d1d4 b8c6 d4e3 f8e7 e3g5
+info depth 8
+info depth 8 seldepth 18 score cp -15 lowerbound nodes 25407 nps 819580 pv e7e5 d2d4 e5d4 d1d4 b8c6 d4e3 f8e7 e3g5 e8g8
+info depth 9
+info depth 9 seldepth 21 score cp -7 lowerbound nodes 54145 nps 1746612 pv e7e5 d2d4 e5d4 d1d4 b8c6 d4e3 f8e7 e3g5 e8g8 g5f5 c6d4
+info depth 10
+info depth 10 seldepth 22 score cp -7 nodes 109969 nps 2339765 pv e7e5 d2d4 e5d4 d1d4 b8c6 d4d3 d7d6 g2c6 b7c6 g1f3 a8b8 d3e3 e8f7 f3g5
+info depth 11
+info depth 11 seldepth 24 score cp -7 nodes 272650 nps 3495512 pv e7e5 d2d4 e5d4 d1d4 b8c6 d4d3 d7d6 g2c6 b7c6 g1f3 a8b8 d3e3 e8f7 f3g5
+info depth 12
+info depth 12 seldepth 26 score cp -15 upperbound nodes 674805 nps 4785851 pv e7e5 b1c3 b8c6 e2e3 f8e7 d2d4 e5d4 e3d4 e8g8 g1e2 d7d6 e1g1
+info depth 12
+info depth 12 seldepth 29 score cp -8 nodes 883085 nps 4722379 pv e7e5 b1c3 b8c6 e2e3 f8e7 d2d4 e5e4 f2f3 e4f3 g2f3 e8g8 a2a3 d7d6 c1d2
+info depth 13
+info depth 13 seldepth 28 score cp -16 upperbound nodes 1125281 nps 4808893 pv e7e5 d2d4 e5d4 g1f3 c7c5 e1g1 b8c6 e2e3 d4e3 c1e3 d7d5 c4d5 f6d5 e3g5
+info depth 13
+info depth 13 seldepth 35 score cp -20 nodes 1744919 nps 4860498 pv e7e5 g1f3 b8c6 e1g1 e5e4 f3h4 d7d6 d2d3 f8e7 b1c3 e8g8 d3e4 f5e4 c3e4 f6e4 d1d5 g8h8 g2e4 e7h4 g3h4 d8h4
+info depth 14
+info depth 14 seldepth 36 score cp -12 lowerbound nodes 2457713 nps 4925276 pv e7e5 g1f3 b8c6 e1g1 d7d6 d2d4 e5e4 f3g5 h7h6 d4d5 h6g5 d5c6 b7c6 c1g5 a8b8 d1a4 b8b2 b1c3 b2b6 a1b1 h8h5
+info depth 15
+info nodes 5334814 score cp -12
+bestmove e7e5 ponder g1f3
+
+
+Open_Analysis: 
+quit
